@@ -1,0 +1,146 @@
+{
+  "header": {
+    "name": "Amelia Barnett",
+    "role": "Web Developer, Graphic Designer, Photographer",
+    "profilePhoto": "assets/images/profile.jpg",
+    "socialLinks": {
+      "facebook": "https://facebook.com",
+      "twitter": "https://twitter.com",
+      "github": "https://github.com"
+    }
+  },
+  "about": {
+    "description": "I am Amelia, a web developer and designer..."
+  },
+  "basicInfo": {
+    "age": 28,
+    "email": "anthony@example.com",
+    "phone": "+1 123 456 7890",
+    "address": "New York City, New York, USA",
+    "language": "English, German, French"
+  },
+  "professionalSkills": [
+    {
+      "skill": "HTML",
+      "proficiency": 80
+    },
+    {
+      "skill": "CSS",
+      "proficiency": 75
+    },
+    {
+      "skill": "JavaScript",
+      "proficiency": 60
+    },
+    {
+      "skill": "SASS",
+      "proficiency": 60
+    },
+    {
+      "skill": "Bootstrap",
+      "proficiency": 75
+    },
+    {
+      "skill": "Photoshop",
+      "proficiency": 70
+    }
+  ],
+  "portfolio": [
+    {
+      "image": "assets/images/portfolio1.jpg",
+      "alt": "Graphic Design and AI Portfolio Image"
+    },
+    {
+      "image": "assets/images/portfolio2.jpg",
+      "alt": "Graphic Design and AI Portfolio Image"
+    },
+    {
+      "image": "assets/images/portfolio3.jpg",
+      "alt": "Graphic Design and AI Portfolio Image"
+    },
+    {
+      "image": "assets/images/portfolio4.jpg",
+      "alt": "Graphic Design and AI Portfolio Image"
+    },
+    {
+      "image": "assets/images/portfolio5.jpg",
+      "alt": "Graphic Design and AI Portfolio Image"
+    },
+    {
+      "image": "assets/images/portfolio6.jpg",
+      "alt": "Graphic Design and AI Portfolio Image"
+    }
+  ],
+
+  "workExperience": [
+    {
+      "position": "Full Stack Developer",
+      "company": "CreativeM",
+      "dateRange": "October 2021 - Present",
+      "description": "Worked on web development..."
+    },
+    {
+      "position": "Full Stack Developer",
+      "company": "CreativeM",
+      "dateRange": "October 2022 - Present",
+      "description": "Worked on web development..."
+    },
+    {
+      "position": "Full Stack Developer",
+      "company": "TD Bank",
+      "dateRange": "October 2020 - October 2022",
+      "description": "Worked on web development..."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master's Degree",
+      "field": "Computer Science",
+      "institution": "Laurentian University",
+      "year": "2018 - 2020"
+    },
+    {
+      "degree": "Bachelor's Degree",
+      "field": "Computer Science",
+      "institution": "University of Waterloo",
+      "year": "2015 - 2018"
+    }
+  ],
+  "references": [
+    {
+      "name": "Parmida",
+      "position": "CEO",
+      "company": "Webnote",
+      "referenceText": "I have worked with Anthony on multiple projects...",
+      "photo": "assets/images/reference1.jpg"
+    },
+    {
+      "name": "Mia",
+      "position": "CEO",
+      "company": "Webnote",
+      "referenceText": "I have worked with Anthony on multiple projects...",
+      "photo": "assets/images/reference2.jpg"
+    },
+    {
+      "name": "Emma",
+      "position": "CEO",
+      "company": "Webnote",
+      "referenceText": "I have worked with Anthony on multiple projects...",
+      "photo": "assets/images/reference3.jpg"
+    }
+  ],
+  "contact": [
+    {
+      "email": "amelia@maplebytesolutions.com",
+      "phone": "+1 123 456 7890",
+      "address": "New York City, New York, USA",
+      "googleMapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509407!2d144.95373531531695!3d-37.816279279751954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce7e0!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2sau!4v1649081142947!5m2!1sen!2sau"
+    }
+  ],
+  "footer": {
+    "name": "Designed By MapleByteSolutions.ca",
+    "description": "New York City, New York, USA"
+  }
+
+
+}
