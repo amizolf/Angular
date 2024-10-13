@@ -1,0 +1,491 @@
+.header {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f5f5f5;
+}
+
+.resume-header {
+  background: url('../assets/images/header-bg.jpg') no-repeat center center/cover;
+  height: 400px;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 1rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  color: #aaa;
+}
+
+.social-links {
+  margin-top: 1rem;
+}
+
+  .social-links a {
+    margin: 0 10px;
+    font-size: 1.5rem;
+    color: #ccc;
+  }
+
+    .social-links a:hover {
+      color: #007bff;
+    }
+
+
+
+/* Overall Section Styling */
+.about-section {
+  background-color: #f8f9fa; /* Light gray background */
+  padding: 50px 20px; /* Space around the section */
+}
+
+/* Container Styling */
+.about-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto; /* Center the content */
+}
+
+/* About Section Box */
+.about, .basic-info {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for 3D effect */
+  padding: 30px;
+  border-radius: 8px;
+  width: 48%; /* About and basic info side by side */
+  text-align:left;
+}
+
+  .about h3, .basic-info h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .about p, .basic-info ul {
+    font-size: 16px;
+    color: #666;
+  }
+
+  .basic-info ul {
+    list-style: none;
+    padding: 0;
+  }
+
+    .basic-info ul li {
+      margin-bottom: 10px;
+    }
+
+      .basic-info ul li strong {
+        color: #000;
+      }
+
+  /* Adding slight hover effect for card boxes */
+  .about:hover, .basic-info:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px); /* Slight movement */
+    transition: all 0.3s ease;
+  }
+
+
+/* Skills Section Styling */
+.skills-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+  .skills-section h3 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+/* Skills Container */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Individual Skill */
+.skill {
+  display: flex;
+  align-items: center;
+  width: 48%;
+  margin-bottom: 10px;
+}
+
+.skill-name {
+  width: 20%;
+  font-weight: bold;
+  text-align: left;
+}
+
+.skill-bar {
+  position: relative;
+  width: 60%;
+  height: 10px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  margin: 0 25px;
+}
+
+.skill-progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #4CAF50; /* Green color */
+  border-radius: 5px;
+}
+
+.skill-percent {
+  width: 10%;
+  text-align: right;
+  font-weight: bold;
+}
+
+
+/* Portfolio Section Styling */
+.portfolio-section {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 40px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+  .portfolio-section h3 {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+/* Portfolio Container */
+.portfolio-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Set exactly 2 images per row */
+  gap: 20px; /* Space between items */
+}
+
+/* Individual Portfolio Item */
+.portfolio-item {
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+  .portfolio-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+
+  .portfolio-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+    .portfolio-item:hover img {
+      transform: scale(1.05);
+    }
+
+/* Media Queries for Smaller Screens */
+@media (max-width: 768px) {
+  .portfolio-container {
+    grid-template-columns: 1fr; /* Stack images in a single column for smaller screens */
+  }
+}
+
+
+
+
+
+
+/* Section Styling */
+.work-experience-section, .education-section {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+  .work-experience-section h2, .education-section h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+/* Experience/Education Card */
+.experience-card, .education-card {
+  display: flex;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+  .experience-card:hover, .education-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+.experience-timeline, .education-timeline {
+  background-color: #4caf50; /* Green color to match the timeline style */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+  
+}
+
+  .experience-timeline h3, .education-timeline h3 {
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .experience-timeline p, .education-timeline p {
+    color: #eee;
+  }
+
+.experience-content, .education-content {
+  padding: 20px;
+  text-align: left;
+  flex: 1;
+}
+
+  .experience-content h4, .education-content h4 {
+    margin: 0 0 10px 0;
+    font-weight: bold;
+  }
+
+  .experience-content p, .education-content p {
+    margin: 0;
+    color: #777;
+  }
+
+/* Media Queries for Smaller Screens */
+@media (max-width: 768px) {
+  .experience-card, .education-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .experience-timeline, .education-timeline {
+    width: 100%;
+  }
+}
+
+
+
+
+
+/* References Section Styling */
+.references-section {
+  max-width: 1200px;
+  margin: 40px auto;
+  text-align: center;
+  padding: 20px;
+}
+
+  .references-section h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+/* Reference Card */
+.reference-container {
+  position: relative;
+  background: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.reference-card {
+  display: flex;
+  max-width: 800px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.reference-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.reference-content {
+  text-align: left;
+  flex: 1;
+}
+
+  .reference-content h3 {
+    margin: 0;
+    font-weight: bold;
+  }
+
+.position {
+  color: gray;
+  margin: 5px 0;
+}
+
+.reference-text {
+  margin: 10px 0 0;
+  color: #666;
+}
+
+/* Tabs Styling */
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+  .tabs span {
+    display: inline-block;
+    width: 15px;
+    height: 5px;
+    background: #ccc;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+    .tabs span.active {
+      background: #4caf50; /* Active tab color */
+    }
+
+    .tabs span:hover {
+      background: #666;
+    }
+
+
+
+
+
+
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info {
+  flex: 1;
+  margin-right: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+  .input-group input,
+  .input-group textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+
+  .input-group textarea {
+    resize: vertical;
+    height: 100px;
+  }
+
+.btn-submit {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+  .btn-submit:hover {
+    background-color: #45a049;
+  }
+
+.contact-details {
+  margin-top: 20px;
+  line-height: 1.6;
+}
+
+.google-map {
+  flex: 2;
+}
+
+
+
+
+/* Footeer Section Box */
+.footer {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for 3D effect */
+  padding: 30px;
+  border-radius: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+  .footer h3 {
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .footer p, ul {
+    font-size: 12px;
+    color: #777;
+  }
+
+
