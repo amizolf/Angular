@@ -109,23 +109,23 @@
   "references": [
     {
       "name": "Parmida",
-      "position": "CEO",
-      "company": "Webnote",
-      "referenceText": "I have worked with Anthony on multiple projects...",
+      "position": "Product Developer",
+      "company": "Palo Alto Networks",
+      "referenceText": "I have worked with Amelia on multiple projects...",
       "photo": "assets/images/reference1.jpg"
     },
     {
       "name": "Mia",
-      "position": "CEO",
-      "company": "Webnote",
-      "referenceText": "I have worked with Anthony on multiple projects...",
+      "position": "Quality Manager",
+      "company": "IBM",
+      "referenceText": "She is so reliable..",
       "photo": "assets/images/reference2.jpg"
     },
     {
       "name": "Emma",
-      "position": "CEO",
-      "company": "Webnote",
-      "referenceText": "I have worked with Anthony on multiple projects...",
+      "position": "Public Relations",
+      "company": "Deloitte",
+      "referenceText": "I adore every piece of her work",
       "photo": "assets/images/reference3.jpg"
     }
   ],
